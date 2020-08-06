@@ -27,4 +27,8 @@ class Artist
     songs.map(&:genres)
   end
  
+ 
+ 
+ 
+ 
 end
