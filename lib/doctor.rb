@@ -22,7 +22,7 @@ class Doctor
   end
   
   def patients 
-    new_appointment
+    new_appointment. select {
   
   
   
