@@ -14,4 +14,4 @@ class Doctor
     @@all
   end
   
-  
+  def 
