@@ -21,16 +21,9 @@ class Patient
  end
  
  
-def doctors
-    appointments.all.
-    
-    end
- end
- 
-  def genres
-    Song.all.map do |song|
-      song.genre
-    end
+ def doctors
+    appointments.map(&:doctor)
+end
  
   
   
