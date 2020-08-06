@@ -15,11 +15,16 @@ class Artist
   end
   
   def new_song(name, genre)
-    song = Song.new(name, self, genre)
-    #self.songs.last
+    #new_song = self.new
+    new_song.name.genre=self
   end
     
-    
+  #   def self.new_by_filename(filename)
+  #   artist, song = filename.split(" - ")
+  #   new_song = self.new(song)
+  #   new_song.artist_name = artist
+  #   new_song
+  # end
     #Song.new
     #song.new = self
     #Song.new = name, self, genre)
