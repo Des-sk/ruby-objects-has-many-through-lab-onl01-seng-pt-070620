@@ -21,6 +21,12 @@ class Genre
     Songs.all. select {|songs|song.genre == self}
   end
   
+  
+  
+  
+  
+  
+  
   def artists
     songs.map {|artists| astists.name}
   end
