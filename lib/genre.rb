@@ -18,11 +18,8 @@ class Genre
   end
   
   def songs 
-    Songs.all. select {|songs|song.genre == self}
+    Songs.all {|songs|song.genre == self}
   end
-  
-  
-  
   
   
   
