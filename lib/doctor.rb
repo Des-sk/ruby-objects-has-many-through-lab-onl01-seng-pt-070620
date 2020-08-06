@@ -2,7 +2,13 @@ class Doctor
   
   @@all=[ ]
   
-  def initialize
+  def initialize(name)
+    @name=name
+    save
+    
+  def save
+    @all<< self
+  end
   
   def self.all
     @@all
