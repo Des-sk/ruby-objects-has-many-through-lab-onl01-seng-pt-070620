@@ -42,8 +42,11 @@ class Artist
   end
  
  def genre 
+   songs.map(&:geres)
+ end
    
-   
-   
+  # def artists
+  #   songs.map(&:artist)
+  # end
  
 end
