@@ -22,12 +22,15 @@ class Patient
  
  
 def doctors
-    Doctors.all.map do |appointments|
-      doctors.appointments
+    appointments.all.
+    
     end
  end
  
-  
+  def genres
+    Song.all.map do |song|
+      song.genre
+    end
  
   
   
