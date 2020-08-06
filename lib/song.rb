@@ -2,9 +2,9 @@ class Song
   
   @@all=[ ]
   
-  attr_accessor 
+  attr_accessor :name, :artist, :genre
   
-  def initialize 
+  def initialize(name)
   
   
   
