@@ -17,6 +17,10 @@ class Genre
   end
   
   def song 
-    Songs.all. select {|songs|song.artist == self}
+    Songs.all. select {|songs|song.genre == self}
+  end
+  
+  def artists
+    
   end
   
