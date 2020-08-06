@@ -24,3 +24,5 @@ class Genre
     
   end
   
+end
+  
