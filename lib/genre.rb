@@ -8,6 +8,15 @@ class Genre
     @name= name
     save
     
+  def self.all
+    @@all
+  end
+    
   def save
     @@all<< self
   end
+  
+  def song 
+    Songs.all. select {|songs|song.artist == self}
+  end
+  
