@@ -15,8 +15,9 @@ class Artist
   end
   
   def new_song(name, genre)
-    Song.new
-    song.new = self
+    
+    #Song.new
+    #song.new = self
     #Song.new = name, self, genre)
     #song.new= :name(:genre)
     #ninety_nine_problems = jay_z.new_song("Ninety Nine Problems", rap)
