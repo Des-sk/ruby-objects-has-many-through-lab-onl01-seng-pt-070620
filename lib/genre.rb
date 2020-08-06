@@ -21,12 +21,13 @@ class Genre
     Song.all { |song| song.genre == self }
   end
   
-  
-  
-  
   def artists
-    songs.map {|artists| astists.name}
+    songs.map(&:artist)
   end
+  
+  # def artists
+  #   songs.map {|artists| astists.name}
+  # end
   
 end
   
