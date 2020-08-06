@@ -8,7 +8,6 @@ class Artist
     @name=name
     @@all<< self
     @genres= genres
-    
   end
   
   def self.all
@@ -22,5 +21,5 @@ class Artist
   def songs
     Song.all.select {|songs| song.artist == self}
   end
- end 
+ 
 end
