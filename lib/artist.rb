@@ -23,11 +23,11 @@ class Artist
     Song.all.select {|songs| songs.artist == self}
   end
  
+
  def genres
-    songs.map(&:genres)
-  end
- 
- 
+    Song.all.map do |song|
+      song.genre
+    end
  
  
  
