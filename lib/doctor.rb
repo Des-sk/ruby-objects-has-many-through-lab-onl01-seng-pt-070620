@@ -13,8 +13,10 @@ class Doctor
   #   @all<< self
   # end
   
-  def self.all
-    @@all
+  def appointments 
+    Appointment.all
+    
+    
   end
   
   def new_appointment(date, patient)
