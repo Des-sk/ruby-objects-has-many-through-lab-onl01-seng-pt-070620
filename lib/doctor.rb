@@ -21,8 +21,9 @@ class Doctor
     Appointment.new(date, patient, self)
   end
   
-  def patients 
-    new_appointment. select {
+  def patients
+    appointments.map(&:patient)
+  end
   
   
   
